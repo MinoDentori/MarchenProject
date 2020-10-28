@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MarchenProject</string>
+    //Info for menu
+    <string name="categoryNameProfile">Profile</string>
+    <string name="categoryNameReports">Reports</string>
+    <string name="categoryNameChildren">Children</string>
+    <string name="categoryNameFairyTales">FairyTales</string>
+    <string name="categoryNameSettings">Settings</string>
+    <string name="categoryNameHelp">Help</string>
+    <string name="categoryNameLogOut">LogOut</string>
+    //Info for menu header
+    <string name="main_menu_title">NameOfOurApplication</string>
+    <string name="main_menu_image_description">General icon  of application</string>
+
+    <string name="description_image_on_content_item">Image of fairy tale</string>
+
+    // Info examples for "Cinderella"
+    <string name="fairy_tale_title_cinderella">Cinderella</string>
+    <string name="fairy_tale_duration_cinderella">00:20:26</string>
+    <string name="fairy_tale_description_cinderella">Cinderella is a young woman with blonde hair, blue eyes, and fair complexion
+    .After her father dies </string>
+    <string name="fairy_tale_creator_cinderella">Tutor</string>
+    // Info examples for "The little Mermaid"
+    <string name="fairy_tale_title_The_little_Mermaid">The little Mermaid</string>
+    <string name="fairy_tale_duration_The_little_Mermaid">01:00:16</string>
+    <string name="fairy_tale_description_The_little_Mermaid">The story follows the journey of a young mermaid who is willing to give up her life in the sea as a mermaid to...</string>
+    <string name="fairy_tale_creator_The_little_Mermaid">Parent</string>
+    // Info examples for "The Three Little Pigs"
+    <string name="fairy_tale_title_The_Three_Little_Pigs">The Three Little Pigs</string>
+    <string name="fairy_tale_duration_The_Three_Little_Pigs">00:30:10</string>
+    <string name="fairy_tale_description_The_Three_Little_Pigs">Once upon a time there was an old mother pig who had three
+        little pigs and not enough food to feed them.</string>
+    <string name="fairy_tale_creator_The_Three_Little_Pigs">Parent</string>
+    
+    // Text for example of Fairy Tale frame 
+    <string name="fairy_tale_text_for_frame_cinderella">Cinderella lives with her step-mother and two bad and ugly step-sisters. She has to work all day while her sisters do nothing but play and try on new dresses and shoes. There is a ball at the prince`s palace tonight and Cinderella`s sisters are ready to go to it. Cinderella is very sad. She is not allowed to go to the ball.
+</string>
+    <string name="fairy_tale_frame_image">Image of fairy tale frame</string>
+    // Text for Buttons used on frames
+    <string name="button_next">Next slide</string>
+    <string name="button_previous">Previous slide</string>
+    <string name="button_submit">Submit</string>
+    // Questions and answers for example page for Cinderella
+    <string name="question_first">What is the relationship between Cinderella and her sisters?</string>
+        <string name="answer_first_first">They love each other.</string>
+        <string name="answer_first_second">Stepmother and sisters love Cinderella, but she doesn`t.</string>
+        <string name="answer_first_third">Stepmother and sisters don`t like Cinderella</string>
+    <string name="question_second">How does Cinderella usually spend her day?</string>
+        <string name="answer_second_first">She doesn`t do anything.</string>
+        <string name="answer_second_second">She does all the housekeeping with her sisters.</string>
+        <string name="answer_second_third">She has to work alone all day.</string>
+    <string name="question_third">What should Cinderella do?</string>
+         <string name="answer_third_first">Silently get to work</string>
+         <string name="answer_third_second">Refuse to work</string>
+         <string name="answer_third_third">Beg your stepmother to take her with you</string>
+</resources>

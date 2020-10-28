@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item   android:title="@string/categoryNameProfile"
+                android:id="@+id/id_profile_button"
+                android:icon="@drawable/ic_profile_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameReports"
+                android:id="@+id/id_reports_button"
+                android:icon="@drawable/ic_reports_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameChildren"
+                android:id="@+id/id_children_button"
+                android:icon="@drawable/ic_children_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameFairyTales"
+                android:id="@+id/id_fairy_tales_button"
+                android:icon="@drawable/ic_fairy_tale_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameSettings"
+                android:id="@+id/id_settings_button"
+                android:icon="@drawable/ic_settings_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameHelp"
+                android:id="@+id/id_help_button"
+                android:icon="@drawable/ic_help_colored_24dp">
+
+        </item>
+        <item   android:title="@string/categoryNameLogOut"
+                android:id="@+id/id_log_out_button"
+                android:icon="@drawable/ic_log_out_colored_24dp">
+
+        </item>
+
+    </group>
+</menu>

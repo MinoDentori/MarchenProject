@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#00FFFFFF">
+
+    <ImageView
+        android:id="@+id/im_fairy_tale"
+        android:layout_width="180dp"
+        android:layout_height="270dp"
+        android:layout_marginStart="235dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="25dp"
+        android:contentDescription="@string/description_image_on_content_item"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        app:srcCompat="@drawable/cinderella_image" />
+
+    <TextView
+        android:id="@+id/tv_name_of_fairy_tale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/fairy_tale_title_cinderella"
+        android:textColor="#9BA80F"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/im_fairy_tale"
+        app:layout_constraintEnd_toStartOf="@+id/im_fairy_tale"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_duration_of_fairy_tale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fairy_tale_duration_cinderella"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_of_fairy_tale" />
+
+    <TextView
+        android:id="@+id/tv_creator_of_fairy_tale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/fairy_tale_creator_cinderella"
+        android:textColor="#FEB51A"
+        android:textSize="28sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_duration_of_fairy_tale" />
+
+    <TextView
+        android:id="@+id/tv_description_of_fairy_tale"
+        android:layout_width="212dp"
+        android:layout_height="136dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="25dp"
+        android:background="#FFEECB"
+        android:text="@string/fairy_tale_description_cinderella"
+        android:textColor="#9BA80F"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/im_fairy_tale"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_creator_of_fairy_tale" />
+</androidx.constraintlayout.widget.ConstraintLayout>

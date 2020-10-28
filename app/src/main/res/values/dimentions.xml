@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_menu_header_height">150dp</dimen>
+    <dimen name="main_menu_image_height">90dp</dimen>
+    <dimen name="main_menu_image_width">90dp</dimen>
+
+</resources>
